@@ -12,8 +12,52 @@
 /*elementos base*/
 body{
    background: var(--preta);
-   font-family: 'Arial', Times, serif;
+   font-family: 'Trebuchet MS', Times, serif;
    color:white;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botaouser{
+    background-color: var(--vermelho);
+    border:none;
+    color: var(--preta);
+
+    padding:15px 30px;
+    margin-right: 25px;
+    font-size: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botaouser:hover{
+    background-color: rgba(0,0,0,.50);
+    color: var(--vermelho);
+}
+
+.botaouser i{
+    margin-right: 18px;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
 }
 
 
@@ -26,21 +70,10 @@ header .container{
 }
 
 header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size:40px;
-}
-
-header nav a{
-    text-decoration:none;
-    color:#AAA;
-    margin-right: 10px;
-}
-
-
-header nav a:hover{
-    color:#fff;
+    height: 10%;
+    width: 10%;
+    display: block;
+    cursor: pointer;
 }
 
 /*filme principal*/
@@ -71,29 +104,6 @@ header nav a:hover{
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
-    border:none;
-    color: white;
-
-    padding:15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
-
-    cursor: pointer;
-    transition: .3s ease all;
-}
-
-.botao:hover{
-    background-color:white;
-    color:black;
-}
-
-.botao i{
-    margin-right: 8px;
-}
-
-
 .container{
     margin-left: 20px;
 }
@@ -114,6 +124,13 @@ header nav a:hover{
     margin-top:5px;
 }
 
+footer{
+    background-color: var(--vermelho);
+    color: var(--preta);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
 
 
 
