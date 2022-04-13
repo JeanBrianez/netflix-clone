@@ -7,6 +7,6 @@
 
 # Minhas Modificações:
 - Alterações de logo, menus e botões: FINALIZADO;
-- Cada item no carrossel direciona a seu próprio resumo;
+- Cada item no carrossel direciona a seu próprio resumo; - atividade prática js assincrono
 - Botão assistir leva ao link do Youtube;
 - Botão info leva ao link do The Movie Database;
